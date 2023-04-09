@@ -16,5 +16,20 @@
         <input type="button" value="Verificar" onclick="verificar()">
         <div id="res">Resultado</div>
     </div>
+
+    <script>
+        var pais = 'EUA'
+
+        function verificar() {
+            var txtpais = document.getElementById('pais')
+            var res = document.getElementById('res')
+
+            if (pais != 'BR') {
+                res.innerHTML = `Você é Estrangeiro`
+            }else {
+                res.innerHTML = `VocÊ é brasileiro`
+            }
+        }
+    </script>
 </body>
 </html>
