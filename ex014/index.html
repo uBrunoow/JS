@@ -5,16 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-
-    <title>Primeiros passos com DOM</title>
+    <title>Hora do dia</title>
 </head>
-<body>
-    <div>
+<body onload="carregar()">
+    <header>
         <h1 id="h1">Hora do dia</h1>
-        <p id="res"></p>
-        <img src="bom-dia.jpeg" alt="">
-    </div>
-    <p>@CursoemVideo</p>
+    </header>
+    <section>
+        <div id="msg">
+            Aqui vai aparecer a mensagem...
+        </div>
+        <div id="foto">
+            <img src="bom-dia.jpeg" alt="" id="imagem">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; CursoemVideo</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -21,11 +21,15 @@ section {
     border-radius: 10px;
     padding: 15px;
     width: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.158);
+}
+
+form {
+padding: 10px;
+}
+
+input {
+    margin: 10px 0 ;
 }
 
 footer {
@@ -39,11 +43,4 @@ h1 {
 
 div {
     padding: 10px;
-}
-
-img {
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-    background-color: rgba(255, 166, 0, 0.527);
 }
