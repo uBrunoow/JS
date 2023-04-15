@@ -2,9 +2,9 @@
 
 
 var c = 1
-while (c <= 10) {
+while (c <= 10) { //enquanto o c for menos que 10
     console.log(`Passo ${c}`)
-    c++
+    c++ // incremento
 }
 
 // teste logico no final
